@@ -61,6 +61,36 @@
     <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UsersControl\EmployeesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UsersControl\EmployeesUC.Designer.cs">
+      <DependentUpon>EmployeesUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UsersControl\JobsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UsersControl\JobsUC.Designer.cs">
+      <DependentUpon>JobsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UsersControl\ResumesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UsersControl\ResumesUC.Designer.cs">
+      <DependentUpon>ResumesUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UsersControl\SalaryUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UsersControl\SalaryUC.Designer.cs">
+      <DependentUpon>SalaryUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UsersControl\SettingsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UsersControl\SettingsUC.Designer.cs">
+      <DependentUpon>SettingsUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\LoginForm.resx">
@@ -68,6 +98,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UsersControl\EmployeesUC.resx">
+      <DependentUpon>EmployeesUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UsersControl\JobsUC.resx">
+      <DependentUpon>JobsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UsersControl\ResumesUC.resx">
+      <DependentUpon>ResumesUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UsersControl\SalaryUC.resx">
+      <DependentUpon>SalaryUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UsersControl\SettingsUC.resx">
+      <DependentUpon>SettingsUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
